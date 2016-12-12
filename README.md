@@ -1,6 +1,7 @@
 # Feed Reader Testing Project
 
-Front-End Web Developer Nanodegree Course Sixth Project [Udacity](https://udacity.com)<br>
+Front-End Web Developer Nanodegree Course Sixth Project [Udacity](https://udacity.com)
+
 In this project, we wrote a number of test for an excisting application with [Jasmine](http://jasmine.github.io/)
 
 -----------------------------------------
@@ -26,7 +27,7 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 
 ----------------------------------------------
 
-# How will I complete this project?
+# How I completed this project?
 
 - The test code are written in jasmine/spec/feedreader.js 
 - 'RSS Feed: has URL' create a loop using allFeeds length and ensures it has Url defined and the URL is not empty.
@@ -37,6 +38,22 @@ You will learn how to use Jasmine to write a number of tests against a pre-exist
 - 'New Feed Selection: new feed is loaded' ensures that the new feed is loaded in the html and by the loadFeed function the content changes.
 
 -----------------------------------------------
+
+### How to run this application
+
+1. Download the repository [Feed Reader Test Project](https://github.com/renurevzranju/feedreader) to your Desktop
+
+2. To inspect the site on your phone, you can run a local server
+
+  ```bash
+  $> cd /path/to/your-project-folder
+  $> python -m SimpleHTTPServer 8080
+  ```
+
+3. Open a browser and visit localhost:8080
+
+-----------------------------------------------
+
 ###License
 
 this project is licensed under the [MIT License](license.txt)
